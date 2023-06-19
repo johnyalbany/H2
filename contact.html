@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact - Learn Python</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('index') }}">Home</a></li>
+                <li><a href="{{ url_for('about') }}">About</a></li>
+                <li><a href="{{ url_for('contact') }}">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="container">
+        <h1 class="text-center">Contact Learn Python</h1>
+        <p class="lead">We would love to hear from you. Please feel free to reach out to us with any questions, suggestions, or feedback.</p>
+        <h2>Contact Information</h2>
+        <ul>
+            <li>Email: info@learnpython.com</li>
+            <li>Phone: +1212332233</li>
+        </ul>
+    </section>
+</body>
+</html>

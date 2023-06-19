@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Learn Python</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('index') }}">Home</a></li>
+                <li><a href="{{ url_for('about') }}">About</a></li>
+                <li><a href="{{ url_for('contact') }}">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="container">
+        <h1 class="text-center">Welcome to Learn Python</h1>
+        <p class="lead">Python is a powerful and versatile programming language. It is widely used in various domains such as web development, data analysis, machine learning, and more.</p>
+        <h2>Getting Started</h2>
+        <p>To start learning Python, you can follow these steps:</p>
+        <ol>
+            <li>Install Python on your computer.</li>
+            <li>Choose an Integrated Development Environment (IDE) or code editor.</li>
+            <li>Learn the basic syntax and data types.</li>
+            <li>Practice writing simple programs.</li>
+            <li>Explore Python libraries and frameworks.</li>
+        </ol>
+        <h2>Learning Levels</h2>
+        <ul>
+            <li>Beginner</li>
+            <li>Intermediate</li>
+            <li>Advanced</li>
+        </ul>
+        <h2>Python Domains</h2>
+        <ul>
+            <li>Web Development</li>
+            <li>Data Analysis</li>
+            <li>Machine Learning</li>
+            <li>Artificial Intelligence</li>
+            <li>Game Development</li>
+            <li>Scripting</li>
+        </ul>
+        <h2>Example Code</h2>
+        <p>Here's a simple Python code snippet:</p>
+        <pre><code class="python">
+def greet(name):
+    print("Hello, " + name + "!")
+
+greet("John")
+        </code></pre>
+    </section>
+</body>
+</html>
